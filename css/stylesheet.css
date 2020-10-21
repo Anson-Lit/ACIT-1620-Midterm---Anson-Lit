@@ -1,5 +1,20 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #e7dec8;
-    color: #30475e
+    color: #30475e;
+    position: absolute
+}
+
+.menu {
+    display: block;
+    background-color: #7e8a97;
+    text-align: center;
+}
+
+.floater {
+    float: right;
+}
+
+.teal {
+    color: teal;
 }
