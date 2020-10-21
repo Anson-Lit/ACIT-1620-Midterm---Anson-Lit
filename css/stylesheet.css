@@ -1,6 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #cbaf87;
+    position: absolute;
+}
+
+.topsection {
+    background-color: #7e8a97;
+    margin: auto;
 }
 
 .lightbrown {
@@ -27,4 +33,12 @@ a.link:link {
 
 .nofloat {
     clear: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.nobullets {
+    list-style: none;
 }
