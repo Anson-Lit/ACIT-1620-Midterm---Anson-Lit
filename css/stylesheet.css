@@ -1,24 +1,30 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e7dec8;
-    color: #30475e;
-    position: absolute
+    background-color: #cbaf87;
 }
 
-.menu {
-    display: block;
-    background-color: #7e8a97;
-    text-align: center;
+.lightbrown {
+    background-color: #e7dec8;
+    color: #30475e;
 }
 
 .teal {
     color: teal;
 }
 
-a:visited {
+a.visited:visited {
     color: silver
 }
 
-a:link {
+a.link:link {
     color: rgb(31, 183, 221)
+}
+
+.floater {
+    float: left;
+    margin-right: 10px;
+}
+
+.nofloat {
+    clear: left;
 }
