@@ -11,10 +11,14 @@ body {
     text-align: center;
 }
 
-.floater {
-    float: right;
-}
-
 .teal {
     color: teal;
+}
+
+a:visited {
+    color: silver
+}
+
+a:link {
+    color: rgb(31, 183, 221)
 }
